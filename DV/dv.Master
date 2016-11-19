@@ -50,7 +50,7 @@
             <ul class="w3-navbar w3-left-align w3-theme-d2">
                 <li><a href="#team" onclick="openNav()">Team</a></li>
                 <li><a href="#work" onclick="openNav()">Work</a></li>
-                <li><a href="#Quote" onclick="openNav()">Quote</a></li>
+                <li><a href="#quote" onclick="openNav()">Quote</a></li>
                 <li><a href="#contact" onclick="openNav()">Contact</a></li>
                 <%--<li><a href="#">Search</a></li>--%>
                 <%--<li class="w3-dropdown-hover">
