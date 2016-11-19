@@ -37,6 +37,14 @@
     background:rgba(255,255,255,0.7);
 }
 
+/**[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; // Set the Appropriate Height
+  height: 75px; // Set the Appropriate Height
+  visibility: hidden; 
+}*/
+
 .dv-white-transparent_old {
     height:100%;
     background-color:#fff;

@@ -36,10 +36,10 @@
                 <a class="w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
             </li>
             <li><a href="#" class="w3-theme"><i class="fa fa-home w3-margin-right"></i>Home</a></li>  
-            <li class="w3-hide-small"><a href="#team" class="w3-hover-white">Team</a></li>
-            <li class="w3-hide-small"><a href="#work" class="w3-hover-white">Work</a></li>
-            <li class="w3-hide-small"><a href="#quote" class="w3-hover-white">Quote</a></li>
-            <li class="w3-hide-small"><a href="#contact" class="w3-hover-white">Contact</a></li>
+            <li class="w3-hide-small"><a href="javascript:goto('team')" class="w3-hover-white">Team</a></li>
+            <li class="w3-hide-small"><a href="javascript:goto('work')" class="w3-hover-white">Work</a></li>
+            <li class="w3-hide-small"><a href="javascript:goto('quote')" class="w3-hover-white">Quote</a></li>
+            <li class="w3-hide-small"><a href="javascript:goto('contact')" class="w3-hover-white">Contact</a></li>
             <%--<li class="w3-hide-small w3-dropdown-hover">
                 <a href="javascript:void(0);" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></a>
                 <div class="w3-dropdown-content w3-white w3-card-4">
@@ -53,10 +53,10 @@
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
             <ul class="w3-navbar w3-left-align w3-theme-d2">
-                <li><a href="#team" onclick="openNav()">Team</a></li>
-                <li><a href="#work" onclick="openNav()">Work</a></li>
-                <li><a href="#quote" onclick="openNav()">Quote</a></li>
-                <li><a href="#contact" onclick="openNav()">Contact</a></li>
+                <li><a href="javascript:goto('team')" onclick="openNav()">Team</a></li>
+                <li><a href="javascript:goto('work')" onclick="openNav()">Work</a></li>
+                <li><a href="javascript:goto('quote')" onclick="openNav()">Quote</a></li>
+                <li><a href="javascript:goto('contact')" onclick="openNav()">Contact</a></li>
                 <%--<li><a href="#">Search</a></li>--%>
                 <%--<li class="w3-dropdown-hover">
                     <a href="javascript:void(0);" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></a>
@@ -97,7 +97,20 @@
                 x.className = x.className.replace(" w3-show", "");
             }
         }
+        
+        function goto(elementId) {
+            window.scroll(0, findElementPosition(document.getElementById(elementId)));
+        }
 
+        function findElementPosition(element) {
+            var curtop = 0;
+            if (element.offsetParent) {
+                do {
+                    curtop += element.offsetTop;
+                } while (element = element.offsetParent);
+                return curtop - 168.5;
+            }
+        }
 
     </script>
 </body>

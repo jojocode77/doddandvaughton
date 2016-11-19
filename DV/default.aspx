@@ -7,7 +7,7 @@
     <div class="w3-display-container w3-animate-opacity" style=";background-image:url('img/shutterstock3.jpg');background-repeat:no-repeat;background-size:cover">
         <%--<img src="img/shutterstock3.jpg" alt="keys" style="width: 100%;">--%>
         <!-- Team Container -->
-        <div class="w3-center" id="team">
+        <div class="w3-center dv-container" id="team">
             <div class="w3-padding-32 dv-white-transparent">
                 <h2>OUR TEAM</h2>
                 <p>Meet the team - your named contact</p>
@@ -67,7 +67,7 @@
 
 
     <!-- Work Row -->
-    <div class="w3-row-padding w3-padding-64 w3-theme-d5" id="work">
+    <div class="w3-row-padding w3-padding-64 w3-theme-d5 dv-container" id="work">
 
         <div class="w3-quarter">
             <h2>Our Work</h2>
@@ -115,7 +115,7 @@
     </div>
 
     <!--Quote Row -->
-    <div class="w3-container w3-padding-64 w3-theme-l5" id="quote">
+    <div class="w3-container w3-padding-64 w3-theme-l5 dv-container" id="quote">
         <div class="w3-row">
             <div class="w3-col m5">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-dark w3-bottombar">Quote</span></div>
@@ -175,7 +175,7 @@
     </div>
 
     <!-- Contact Container -->
-    <div class="w3-container w3-padding-64 w3-theme-d5" id="contact">
+    <div class="w3-container w3-padding-64 w3-theme-d5 dv-container" id="contact">
         <div class="w3-row">
             <div class="w3-col m5">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Contact Us</span></div>
