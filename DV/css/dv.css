@@ -32,3 +32,17 @@
     background-color:#eaf8ff !important;
     color:#000 !important;
 }
+
+.dv-white-transparent {
+    background:rgba(255,255,255,0.7);
+}
+
+.dv-white-transparent_old {
+    height:100%;
+    background-color:#fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
+    filter: alpha(opacity=70);  /* IE 5-7 */
+    -moz-opacity: 0.7;          /* Netscape */
+    -khtml-opacity: 0.7;        /* Safari 1.x */
+    opacity: 0.7;               /* Good browsers */
+}

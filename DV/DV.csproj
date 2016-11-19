@@ -61,6 +61,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\classprofile.png" />
+    <Content Include="img\house-trans.png" />
     <Content Include="packages.config" />
     <Content Include="dv.Master" />
     <Content Include="fontawesome\fonts\fontawesome-webfont.eot" />

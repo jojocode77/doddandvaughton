@@ -4,18 +4,51 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!-- Image Header -->
-    <div class="w3-display-container w3-animate-opacity">
-        <%--<div class="w3-threequarter">--%>
-            <img src="img/shutterstock3.jpg" alt="keys" style="width: 100%;">
-        
-        <%--</div>--%>
-        <%--<div class="w3-quarter">
-            <h3>The Complete Conveyancing Service</h3>
-        </div>--%>
+    <div class="w3-display-container w3-animate-opacity" style=";background-image:url('img/shutterstock3.jpg');background-repeat:no-repeat;background-size:cover">
+        <%--<img src="img/shutterstock3.jpg" alt="keys" style="width: 100%;">--%>
+        <!-- Team Container -->
+        <div class="w3-center" id="team">
+            <div class="w3-padding-32 dv-white-transparent">
+                <h2>OUR TEAM</h2>
+                <p>Meet the team - your named contact</p>
+                <div class="w3-row">
+                    <br>
+
+                    <div class="w3-quarter">
+                        <img src="img/classprofile.png" alt="Ian" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <h3>Ian Dodd</h3>
+                        <p>Partner</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="img/classprofile.png" alt="Philip" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <h3>Philip Vaughton</h3>
+                        <p>Partner</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="img/classprofile.png" alt="Alison" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <h3>Alison Gill</h3>
+                        <p>Partner</p>
+                    </div>
+
+                    <div class="w3-quarter">
+                        <img src="img/classprofile.png" alt="Dan" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <h3>Daniel</h3>
+                        <p>Conveyancer</p>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
     </div>
 
+    
+    
+
     <!-- Modal -->
-    <div id="id01" class="w3-modal">
+   <%-- <div id="id01" class="w3-modal">
         <div class="w3-modal-content w3-card-8 w3-animate-top">
             <header class="w3-container w3-theme">
                 <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
@@ -29,42 +62,8 @@
                 <p>Modal footer</p>
             </footer>
         </div>
-    </div>
+    </div>--%>
 
-    <!-- Team Container -->
-    <div class="w3-container w3-padding-32 w3-center" id="team">
-        <h2>OUR TEAM</h2>
-        <p>Meet the team - your named contact</p>
-
-        <div class="w3-row">
-            <br>
-
-            <div class="w3-quarter">
-                <img src="img/personplaceholder.png" alt="Ian" style="width: 45%" class="w3-circle w3-hover-opacity w3-border">
-                <h3>Ian Dodd</h3>
-                <p>Partner</p>
-            </div>
-
-            <div class="w3-quarter">
-                <img src="img/personplaceholder.png" alt="Philip" style="width: 45%" class="w3-circle w3-hover-opacity w3-border">
-                <h3>Philip Vaughton</h3>
-                <p>Partner</p>
-            </div>
-
-            <div class="w3-quarter">
-                <img src="img/personplaceholder.png" alt="Alison" style="width: 45%" class="w3-circle w3-hover-opacity w3-border">
-                <h3>Alison Gill</h3>
-                <p>Partner</p>
-            </div>
-
-            <div class="w3-quarter">
-                <img src="img/personplaceholder.png" alt="Dan" style="width: 45%" class="w3-circle w3-hover-opacity w3-border">
-                <h3>Daniel</h3>
-                <p>Conveyancer</p>
-            </div>
-
-        </div>
-    </div>
 
 
     <!-- Work Row -->
@@ -209,7 +208,7 @@
     <!-- Google Maps -->
     <div id="googleMap" style="width: 100%; height: 420px;"></div>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiyOhFlFBeJfkneXg1cwhMqILT4DbxsSs&callback=initMap"></script>
-    <script>
+    <script type="text/javascript">
         function initMap() {
             var myCenter = { lat: 52.0036405, lng: -0.4964619 };
             var map = new google.maps.Map(document.getElementById('googleMap'), {
