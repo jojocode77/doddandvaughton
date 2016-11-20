@@ -207,7 +207,7 @@
 
     <!-- Google Maps -->
     <div id="googleMap" style="width: 100%; height: 420px;"></div>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiyOhFlFBeJfkneXg1cwhMqILT4DbxsSs&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASTPbhg4TwBgnFoGjEg8vDgPTobCAnENc&callback=initMap"></script>
     <script type="text/javascript">
         function initMap() {
             var myCenter = { lat: 52.0036405, lng: -0.4964619 };
