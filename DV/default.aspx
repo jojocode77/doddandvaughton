@@ -197,7 +197,7 @@
                 <p>Fill in the form to get a quote.</p>
             </div>
             <div class="w3-col m7">
-                <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="quote.aspx" target="_blank">
+                <form class="w3-container w3-card-4 w3-padding-16 w3-white" onsubmit="sendForm('quote');return false;" >
                     <div class="w3-group">
                         <label class="w3-label w3-validate w3-text-theme">Name</label>
                         <input class="w3-input" type="text" name="Name" required>
@@ -244,6 +244,7 @@
                         </div>
                     </div>
                     <button type="submit" class="w3-btn w3-right w3-theme">Send</button>
+                    <span id="quote_message" style="display:none;"><br />The form hasn't actually been sent, but you could display a message here when it has.</span>
                 </form>
             </div>
         </div>
@@ -260,21 +261,23 @@
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-phone w3-xlarge"></i></span>01525 719444</p>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-envelope-o w3-xlarge"></i></span>info@doddandvaughton.com</p>
             </div>
-            <div class="w3-col m7">
-                <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="form.asp" target="_blank">
+            <div class="w3-col m7">                
+                <form class="w3-container w3-card-4 w3-padding-16 w3-white" onsubmit="sendForm('contact');return false;">
+               <%-- <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="form.asp" target="_blank">--%>
                     <div class="w3-group">
                         <label class="w3-label w3-text-theme">Name</label>
                         <input class="w3-input" type="text" name="Name" required>
                     </div>
                     <div class="w3-group">
                         <label class="w3-label w3-text-theme">Email</label>
-                        <input class="w3-input" type="text" name="Email" required>
+                        <input class="w3-input" type="email" name="Email" required>
                     </div>
                     <div class="w3-group">
                         <label class="w3-label w3-text-theme">Message</label>
                         <input class="w3-input" type="text" name="Message" required>
                     </div>
                     <button type="submit" class="w3-btn w3-right w3-theme">Send</button>
+                    <span id="contact_message" style="display:none;"><br />The form hasn't actually been sent, but you could display a message here when it has.</span>
                 </form>
             </div>
         </div>
@@ -294,6 +297,11 @@
                 position: myCenter,
                 map: map
             });
+        }
+
+        function sendForm(formType) {
+            document.getElementById(formType + "_message").style.display = "block";
+            //goto(formType + "_message");
         }
     </script>
 
