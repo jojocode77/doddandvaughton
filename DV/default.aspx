@@ -12,28 +12,24 @@
                 <h2>OUR TEAM</h2>
                 <p>Meet the team - your named contact</p>
                 <div class="w3-row">
-                    <br>
-
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Ian" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <img src="img/classprofile.png" alt="Ian" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('ian').style.display='block'"/>
                         <h3>Ian Dodd</h3>
                         <p>Partner</p>
                     </div>
-
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Philip" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <img src="img/classprofile.png" alt="Philip" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('philip').style.display='block'"/>
                         <h3>Philip Vaughton</h3>
                         <p>Partner</p>
                     </div>
 
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Alison" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <img src="img/classprofile.png" alt="Alison" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('alison').style.display='block'"/>
                         <h3>Alison Gill</h3>
                         <p>Partner</p>
                     </div>
-
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Dan" style="width: 45%" class="w3-circle w3-hover-opacity">
+                        <img src="img/classprofile.png" alt="Dan" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('dan').style.display='block'"/>
                         <h3>Daniel</h3>
                         <p>Conveyancer</p>
                     </div>
@@ -44,8 +40,87 @@
         </div>
     </div>
 
-    
-    
+    <!-- Modal Teams -->
+    <div id="ian" class="w3-modal">
+        <div class="w3-modal-content w3-card-8 w3-animate-top w3-row">
+            <header class="w3-container w3-theme">
+                <span onclick="document.getElementById('ian').style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
+                <h4>Ian Dodd and Moira</h4>
+            </header>
+            <div class="w3-container">
+                <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
+                    <div class="w3-col w3-padding s3">
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/classprofile.png');"></div>
+                    </div>
+                    <div class="w3-col s9 w3-left-align w3-padding">
+                        <p>Ian and Moira have worked together since....</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed enim fermentum, cursus mi non, malesuada dui. Aliquam condimentum rhoncus mollis. Integer a mauris nec nisi finibus convallis. Etiam et blandit lorem, ac iaculis dolor. Nulla efficitur dictum libero a.</p>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <div id="philip" class="w3-modal">
+        <div class="w3-modal-content w3-card-8 w3-animate-top w3-row">
+            <header class="w3-container w3-theme">
+                <span onclick="document.getElementById('philip').style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
+                <h4>Philip Vaughton and Tom</h4>
+            </header>
+            <div class="w3-container">
+                <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
+                    <div class="w3-col w3-padding s3">
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/tom.jpg');"></div>
+                    </div>
+                    <div class="w3-col s9 w3-left-align w3-padding">
+                        <p>Philip and Tom are a father son team.</p>
+                        <p>Tom pretty much runs the show....</p>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+    <div id="alison" class="w3-modal">
+        <div class="w3-modal-content w3-card-8 w3-animate-top w3-row">
+            <header class="w3-container w3-theme">
+                <span onclick="document.getElementById('alison').style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
+                <h4>Ian Dodd and Moira</h4>
+            </header>
+            <div class="w3-container">
+                <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
+                    <div class="w3-col w3-padding s3">
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/classprofile.png');"></div>
+                    </div>
+                    <div class="w3-col s9 w3-left-align w3-padding">
+                        <p>Alison and Helen......</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed enim fermentum, cursus mi non, malesuada dui. Aliquam condimentum rhoncus mollis. Integer a mauris nec nisi finibus convallis. Etiam et blandit lorem, ac iaculis dolor. Nulla efficitur dictum libero a.</p>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <div id="dan" class="w3-modal">
+        <div class="w3-modal-content w3-card-8 w3-animate-top w3-row">
+            <header class="w3-container w3-theme">
+                <span onclick="document.getElementById('dan').style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
+                <h4>Ian Dodd and Moira</h4>
+            </header>
+            <div class="w3-container">
+                <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
+                    <div class="w3-col w3-padding s3">
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/classprofile.png');"></div>
+                    </div>
+                    <div class="w3-col s9 w3-left-align w3-padding">
+                        <p>Dan and....</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed enim fermentum, cursus mi non, malesuada dui. Aliquam condimentum rhoncus mollis. Integer a mauris nec nisi finibus convallis. Etiam et blandit lorem, ac iaculis dolor. Nulla efficitur dictum libero a.</p>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
 
     <!-- Modal -->
    <%-- <div id="id01" class="w3-modal">
@@ -70,7 +145,7 @@
     <div class="w3-row-padding w3-padding-64 w3-theme-d5 dv-container" id="work">
 
         <div class="w3-quarter">
-            <h2>Our Work</h2>
+            <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Work</span></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
@@ -180,7 +255,7 @@
             <div class="w3-col m5">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Contact Us</span></div>
                 <h3>Address</h3>
-                <p>Swing by for a cup of coffee, or whatever.</p>
+                <%--<p>Swing by for a cup of coffee, or whatever.</p>--%>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-map-marker w3-xlarge"></i></span>5&6 Station Square, Flitwick, Beds, MK45 1DP</p>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-phone w3-xlarge"></i></span>01525 719444</p>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-envelope-o w3-xlarge"></i></span>info@doddandvaughton.com</p>
@@ -210,9 +285,9 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASTPbhg4TwBgnFoGjEg8vDgPTobCAnENc&callback=initMap"></script>
     <script type="text/javascript">
         function initMap() {
-            var myCenter = { lat: 52.0036405, lng: -0.4964619 };
+            var myCenter = { lat: 52.003740, lng: -0.494263 };
             var map = new google.maps.Map(document.getElementById('googleMap'), {
-                zoom: 5,
+                zoom: 18,
                 center: myCenter
             });
             var marker = new google.maps.Marker({
