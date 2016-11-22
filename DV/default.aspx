@@ -224,20 +224,20 @@
                         </div>
                         <div class="w3-col s6">
                             <label class="w3-label w3-text-theme">Is this what you meant?</label><br />
-                            <input id="transferofequity" class="w3-radio" type="radio" name="mortgage" value="transferofequity" required>
+                            <input id="transferofequity" class="w3-radio" type="radio" name="salepurchase" value="transferofequity" required>
                             <label class="w3-validate">Transfer of Equity</label>
                             <br>
-                            <input id="remortgage" class="w3-radio" type="radio" name="mortgage" value="remortgage" required>
+                            <input id="remortgage" class="w3-radio" type="radio" name="salepurchase" value="remortgage" required>
                             <label class="w3-validate">Re-Mortgage</label>
                             <br>
-                            <input id="mortgageboth" class="w3-radio" type="radio" name="mortgage" value="mortgageboth" required>
+                            <input id="mortgageboth" class="w3-radio" type="radio" name="salepurchase" value="mortgageboth" required>
                             <label class="w3-validate">Both</label>
                         </div>
                     </div>
                     <div class="w3-group">
                         <p>We can make these two fields below show/hide conditionally based on selection above</p>
                     </div>
-                    <div class="w3-group w3-row" id="saleprice">                        
+                    <div class="w3-group w3-row" id="saleprice" style="display:none;">                        
                         <label class="w3-label w3-validate w3-text-theme">Sale Price</label><br />
                         <div class="w3-col" style="width: 25px">
                             <i class="fa fa-gbp w3-text-theme" style="font-size: 20px; padding-top: 10px;"></i>
@@ -247,7 +247,7 @@
                         </div>
                     </div>
 
-                    <div class="w3-group w3-row" id="purchaseprice">
+                    <div class="w3-group w3-row" id="purchaseprice" style="display:none;">
                         <label class="w3-label w3-validate w3-text-theme">Purchase Price</label><br />
                         <div class="w3-col" style="width: 25px">
                             <i class="fa fa-gbp w3-text-theme" style="font-size: 20px; padding-top: 10px;"></i>
@@ -329,6 +329,20 @@
                         alert(d);
                     }
                 });
+            });
+            jQuery("#quote input[type='radio']").click(function () {
+                var clicked = jQuery(this);
+                if (clicked.val() == "sale") {
+                    jQuery("#saleprice").css("display", "");
+                    jQuery("#purchaseprice").css("display", "none");
+                } else if (clicked.val() == "purchase") {
+                    jQuery("#purchaseprice").css("display", "");
+                    jQuery("#saleprice").css("display", "none");
+                } else if (clicked.val() == "spboth") {
+                    jQuery("#saleprice, #purchaseprice").css("display", "");
+                } else {
+                    jQuery("#saleprice, #purchaseprice").css("display", "none");
+                }
             });
         })
     </script>
