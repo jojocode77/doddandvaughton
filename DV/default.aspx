@@ -210,16 +210,29 @@
                         <label class="w3-label w3-text-theme">Telephone</label>
                         <input class="w3-input" type="text" name="Telephone">
                     </div>
-                    <div class="w3-group">
-                        <label class="w3-label w3-text-theme">Sale/Purchase</label><br />
-                        <input id="sale" class="w3-radio" type="radio" name="salepurchase" value="sale" required>
-                        <label class="w3-validate">Sale</label>
-                        <br>
-                        <input id="purchase" class="w3-radio" type="radio" name="salepurchase" value="purchase" required>
-                        <label class="w3-validate">Purchase</label>
-                        <br>
-                        <input id="both" class="w3-radio" type="radio" name="salepurchase" value="both" required>
-                        <label class="w3-validate">Both</label>
+                    <div class="w3-group w3-row">
+                        <div class="w3-col s6">
+                            <label class="w3-label w3-text-theme">Sale/Purchase</label><br />
+                            <input id="sale" class="w3-radio" type="radio" name="salepurchase" value="sale" required>
+                            <label class="w3-validate">Sale</label>
+                            <br>
+                            <input id="purchase" class="w3-radio" type="radio" name="salepurchase" value="purchase" required>
+                            <label class="w3-validate">Purchase</label>
+                            <br>
+                            <input id="both" class="w3-radio" type="radio" name="salepurchase" value="spboth" required>
+                            <label class="w3-validate">Both</label>
+                        </div>
+                        <div class="w3-col s6">
+                            <label class="w3-label w3-text-theme">Is this what you meant?</label><br />
+                            <input id="transferofequity" class="w3-radio" type="radio" name="mortgage" value="transferofequity" required>
+                            <label class="w3-validate">Transfer of Equity</label>
+                            <br>
+                            <input id="remortgage" class="w3-radio" type="radio" name="mortgage" value="remortgage" required>
+                            <label class="w3-validate">Re-Mortgage</label>
+                            <br>
+                            <input id="mortgageboth" class="w3-radio" type="radio" name="mortgage" value="mortgageboth" required>
+                            <label class="w3-validate">Both</label>
+                        </div>
                     </div>
                     <div class="w3-group">
                         <p>We can make these two fields below show/hide conditionally based on selection above</p>
