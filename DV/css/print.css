@@ -1,0 +1,37 @@
+﻿
+    .w3-quarter {
+        width:24.99999% !important;
+    }
+
+    .m5 {
+        width:41.66666% !important;
+    }
+
+    .m7 {
+        width:58.33333% !important;
+    }
+
+    .w3-modal.dv-modal-print {
+        display:block !important;
+        position:relative !important;
+        padding-top:10px !important;
+        /*left:auto !important;
+        right:auto !important;*/
+        z-index:auto !important;
+        background-color:#fff !important;
+        overflow:auto!important;
+    }
+
+    .w3-top {
+        position:relative !important;
+    }
+
+    .dv-body-container {
+        padding-top:0px !important;
+    }
+
+    #work, #quote, #contact {
+        page-break-before:always;
+    }
+
+

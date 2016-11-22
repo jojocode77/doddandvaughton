@@ -45,6 +45,10 @@
   visibility: hidden; 
 }*/
 
+.dv-body-container {
+    padding-top:148.5px;
+}
+
 .dv-white-transparent_old {
     height:100%;
     background-color:#fff;
@@ -55,6 +59,10 @@
     opacity: 0.7;               /* Good browsers */
 }
 
+.dv-header > h1, .dv-header > h4 {
+    margin-top:3px;
+    margin-bottom:3px;
+}
 
 .dv-profilepicture {
     border-radius:50%;
