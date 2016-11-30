@@ -293,10 +293,11 @@
             <div class="w3-col">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-dark w3-bottombar">Conveyancing FAQs</span></div>
                 <p>Find the answers to frequently asked questions below.</p>
+                <p>This is what they look like full width.</p>
             </div>
         </div>
         <div class="w3-row">
-            <div class="w3-col w3-half w3-padding">
+            <div class="w3-col w3-padding">
                 <div class="w3-accordion">
                     <button onclick="accordion(this, 'q1')" class="w3-btn-block w3-left-align w3-theme-dark w3-margin-top">
                         <span>My question lorem ipsum?<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
@@ -307,8 +308,6 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-            </div>
-            <div class="w3-col w3-half w3-padding">
                 <div class="w3-accordion">                    
                     <button onclick="accordion(this, 'q2')" class="w3-btn-block w3-left-align w3-theme-dark w3-margin-top">
                         <span>Another frequently asked question<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
