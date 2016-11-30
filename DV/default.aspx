@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!-- Image Header -->
-    <div class="w3-display-container w3-animate-opacity" style="background-image:url('img/shutterstock3.jpg');background-repeat:no-repeat;background-size:cover">
+    <div class="w3-display-container w3-animate-opacity" style="background-image: url('img/shutterstock3.jpg'); background-repeat: no-repeat; background-size: cover">
         <%--<img src="img/shutterstock3.jpg" alt="keys" style="width: 100%;">--%>
         <!-- Team Container -->
         <div class="w3-center dv-container" id="team">
@@ -13,49 +13,32 @@
                 <p>Meet the team - your named contact</p>
                 <div class="w3-row">
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Ian" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('ian').style.display='block'"/>
+                        <img src="img/classprofile.png" alt="Ian" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('ian').style.display='block'" />
                         <h3>Ian Dodd</h3>
                         <p>Partner</p>
                     </div>
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Philip" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('philip').style.display='block'"/>
+                        <img src="img/classprofile.png" alt="Philip" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('philip').style.display='block'" />
                         <h3>Philip Vaughton</h3>
                         <p>Partner</p>
                     </div>
 
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Alison" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('alison').style.display='block'"/>
+                        <img src="img/classprofile.png" alt="Alison" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('alison').style.display='block'" />
                         <h3>Alison Gill</h3>
                         <p>Partner</p>
                     </div>
                     <div class="w3-quarter">
-                        <img src="img/classprofile.png" alt="Dan" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('dan').style.display='block'"/>
+                        <img src="img/classprofile.png" alt="Dan" style="width: 45%" class="w3-circle w3-hover-opacity dv-cursorpointer" onclick="document.getElementById('dan').style.display='block'" />
                         <h3>Daniel</h3>
                         <p>Conveyancer</p>
                     </div>
 
                 </div>
-            </div>            
-        </div>      
+            </div>
+        </div>
     </div>
 
-
-    <!-- Modal -->
-   <%-- <div id="id01" class="w3-modal">
-        <div class="w3-modal-content w3-card-8 w3-animate-top">
-            <header class="w3-container w3-theme">
-                <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
-                <h4>Oh snap! I just showed you a modal..</h4>
-            </header>
-            <div class="w3-container">
-                <p>Cool huh? Ok, enough teasing around..</p>
-                <p>Go to our <a class="w3-btn w3-theme-d4" href="about.aspx">about page</a> to learn more!</p>
-            </div>
-            <footer class="w3-container w3-theme">
-                <p>Modal footer</p>
-            </footer>
-        </div>
-    </div>--%>
     <!-- Modal Teams -->
     <div id="ian" class="w3-modal dv-modal-print">
         <div class="w3-modal-content w3-card-8 w3-animate-top w3-row">
@@ -66,14 +49,14 @@
             <div class="w3-container">
                 <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
                     <div class="w3-col w3-padding s3">
-                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
-                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image: url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image: url('img/classprofile.png');"></div>
                     </div>
                     <div class="w3-col s9 w3-left-align w3-padding">
                         <p>Ian and Moira have worked together since....</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed enim fermentum, cursus mi non, malesuada dui. Aliquam condimentum rhoncus mollis. Integer a mauris nec nisi finibus convallis. Etiam et blandit lorem, ac iaculis dolor. Nulla efficitur dictum libero a.</p>
                     </div>
-                </div>            
+                </div>
             </div>
         </div>
     </div>
@@ -86,14 +69,14 @@
             <div class="w3-container">
                 <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
                     <div class="w3-col w3-padding s3">
-                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
-                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/tom.jpg');"></div>
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image: url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image: url('img/tom.jpg');"></div>
                     </div>
                     <div class="w3-col s9 w3-left-align w3-padding">
                         <p>Philip and Tom are a father son team.</p>
                         <p>Tom pretty much runs the show....</p>
                     </div>
-                </div>               
+                </div>
             </div>
         </div>
     </div>
@@ -106,14 +89,14 @@
             <div class="w3-container">
                 <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
                     <div class="w3-col w3-padding s3">
-                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
-                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image: url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image: url('img/classprofile.png');"></div>
                     </div>
                     <div class="w3-col s9 w3-left-align w3-padding">
                         <p>Alison and Helen......</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed enim fermentum, cursus mi non, malesuada dui. Aliquam condimentum rhoncus mollis. Integer a mauris nec nisi finibus convallis. Etiam et blandit lorem, ac iaculis dolor. Nulla efficitur dictum libero a.</p>
                     </div>
-                </div>            
+                </div>
             </div>
         </div>
     </div>
@@ -126,21 +109,21 @@
             <div class="w3-container">
                 <div class="w3-row w3-padding-top w3-padding-bottom w3-center">
                     <div class="w3-col w3-padding s3">
-                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image:url('img/classprofile.png');"></div>
-                        <div class="dv-profilepicture w3-border-theme" style="background-image:url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme w3-margin-bottom" style="background-image: url('img/classprofile.png');"></div>
+                        <div class="dv-profilepicture w3-border-theme" style="background-image: url('img/classprofile.png');"></div>
                     </div>
                     <div class="w3-col s9 w3-left-align w3-padding">
                         <p>Dan and....</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed enim fermentum, cursus mi non, malesuada dui. Aliquam condimentum rhoncus mollis. Integer a mauris nec nisi finibus convallis. Etiam et blandit lorem, ac iaculis dolor. Nulla efficitur dictum libero a.</p>
                     </div>
-                </div>            
+                </div>
             </div>
         </div>
     </div>
 
 
     <!-- Work Row -->
-    <div class="w3-row-padding w3-padding-64 w3-theme-d5 dv-container" id="work">
+    <div class="w3-row-padding w3-padding-32 w3-theme-d5 dv-container" id="work">
 
         <div class="w3-quarter">
             <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Work</span></div>
@@ -150,7 +133,7 @@
         <div class="w3-quarter">
             <div class="w3-card-2 w3-white">
                 <%--<div style="max-height:226px;overflow:hidden;">--%>
-                    <img src="img/salepurchase.jpg" alt="Sale and Purchase" style="width:100%;" class="w3-border-bottom" />
+                <img src="img/salepurchase.jpg" alt="Sale and Purchase" style="width: 100%;" class="w3-border-bottom" />
                 <%--</div>--%>
                 <div class="w3-container w3-theme-l5">
                     <h3>Sale & Purchase</h3>
@@ -177,7 +160,7 @@
 
         <div class="w3-quarter">
             <div class="w3-card-2 w3-white">
-                <img src="img/transferofequity.jpg" alt="Trasnfer of Equity" style="width: 100%; " class="w3-border-bottom" />
+                <img src="img/transferofequity.jpg" alt="Trasnfer of Equity" style="width: 100%;" class="w3-border-bottom" />
                 <div class="w3-container w3-theme-l5">
                     <h3>Transfer of Equity</h3>
                     <p>Blablabla</p>
@@ -190,14 +173,14 @@
     </div>
 
     <!--Quote Row -->
-    <div class="w3-container w3-padding-64 w3-theme-l5 dv-container" id="quote">
+    <div class="w3-container w3-padding-32 w3-theme-l5 dv-container" id="quote">
         <div class="w3-row">
             <div class="w3-col m5">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-dark w3-bottombar">Quote</span></div>
                 <p>Fill in the form to get a quote.</p>
             </div>
             <div class="w3-col m7">
-                <form id="dv-quote-form" class="w3-container w3-card-4 w3-padding-16 w3-white" onsubmit="sendForm('quote');return false;" >
+                <form id="dv-quote-form" class="w3-container w3-card-4 w3-padding-16 w3-white" onsubmit="sendForm('quote');return false;">
                     <div class="w3-group">
                         <label class="w3-label w3-validate w3-text-theme">Name</label>
                         <input class="w3-input" type="text" name="Name" required>
@@ -234,10 +217,7 @@
                             <label class="w3-validate">Both</label>
                         </div>
                     </div>
-                    <div class="w3-group">
-                        <p>We can make these two fields below show/hide conditionally based on selection above</p>
-                    </div>
-                    <div class="w3-group w3-row" id="saleprice" style="display:none;">                        
+                    <div class="w3-group w3-row" id="saleprice" style="display: none;">
                         <label class="w3-label w3-validate w3-text-theme">Sale Price</label><br />
                         <div class="w3-col" style="width: 25px">
                             <i class="fa fa-gbp w3-text-theme" style="font-size: 20px; padding-top: 10px;"></i>
@@ -247,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="w3-group w3-row" id="purchaseprice" style="display:none;">
+                    <div class="w3-group w3-row" id="purchaseprice" style="display: none;">
                         <label class="w3-label w3-validate w3-text-theme">Purchase Price</label><br />
                         <div class="w3-col" style="width: 25px">
                             <i class="fa fa-gbp w3-text-theme" style="font-size: 20px; padding-top: 10px;"></i>
@@ -257,26 +237,28 @@
                         </div>
                     </div>
                     <button type="submit" class="w3-btn w3-right w3-theme">Send</button>
-                    <span id="quote_message" style="display:none;"><br />The form hasn't actually been sent, but you could display a message here when it has.</span>
+                    <span id="quote_message" style="display: none;">
+                        <br />
+                        The form hasn't actually been sent, but you could display a message here when it has.</span>
                 </form>
             </div>
         </div>
     </div>
 
     <!-- Contact Container -->
-    <div class="w3-container w3-padding-64 w3-theme-d5 dv-container" id="contact">
+    <div class="w3-container w3-padding-32 w3-theme-d5 dv-container" id="contact">
         <div class="w3-row">
             <div class="w3-col m5">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Contact Us</span></div>
                 <h3>Address</h3>
                 <%--<p>Swing by for a cup of coffee, or whatever.</p>--%>
-                <p><span style="width: 30px; display: inline-block;"><i class="fa fa-map-marker w3-xlarge"></i></span>5&6 Station Square, Flitwick, Beds, MK45 1DP</p>
+                <p><span style="width: 30px; display: inline-block;"><i class="fa fa-map-marker w3-xlarge"></i></span>5&amp;6 Station Square, Flitwick, Beds, MK45 1DP</p>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-phone w3-xlarge"></i></span>01525 719444</p>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-envelope-o w3-xlarge"></i></span><a href="mailto:enquiries@doddandvaughton.com">enquiries@doddandvaughton.com</a></p>
             </div>
-            <div class="w3-col m7">                
+            <div class="w3-col m7">
                 <form id="dv-contact-form" class="w3-container w3-card-4 w3-padding-16 w3-white" onsubmit="sendForm('contact');return false;">
-               <%-- <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="form.asp" target="_blank">--%>
+                    <%-- <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="form.asp" target="_blank">--%>
                     <div class="w3-group">
                         <label class="w3-label w3-text-theme">Name</label>
                         <input class="w3-input" type="text" name="Name" required>
@@ -290,21 +272,69 @@
                         <input class="w3-input" type="text" name="Message" required>
                     </div>
                     <button type="submit" class="w3-btn w3-right w3-theme">Send</button>
-                    <span id="contact_message" style="display:none;"><br />The form hasn't actually been sent, but you could display a message here when it has.</span>
+                    <span id="contact_message" style="display: none;">
+                        <br />
+                        The form hasn't actually been sent, but you could display a message here when it has.</span>
                 </form>
+            </div>
+        </div>
+        <div class="w3-row w3-margin-top">
+            <div class="w3-col">
+                <!-- Google Maps -->
+                <div id="googleMap" style="width: 100%; height: 420px;"></div>
             </div>
         </div>
     </div>
 
-    <!-- Google Maps -->
-    <div id="googleMap" style="width: 100%; height: 420px;"></div>
+    <!--FAQs Row -->
+    <div class="w3-container w3-padding-32 w3-theme-l5 dv-container" id="faqs">
+        <div class="w3-row">
+            <div class="w3-col">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-dark w3-bottombar">Conveyancing FAQs</span></div>
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-col">
+                <div class="w3-accordion">
+                    <button onclick="accordion(this, 'q1')" class="w3-btn-block w3-left-align w3-theme w3-margin-top">
+                        <span>My question lorem ipsum?<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
+                    </button>
+                    <div id="q1" class="w3-accordion-content w3-container w3-animate-opacity">
+                        <p>Here is there answer to the question.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <button onclick="accordion(this, 'q2')" class="w3-btn-block w3-left-align w3-theme w3-margin-top">
+                        <span>Another frequently asked question<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
+                    </button>
+                    <div id="q2" class="w3-accordion-content w3-container">
+                        <p>Here is there answer to the question.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FAQs Row -->
+    <div class="w3-container w3-padding-32 w3-theme-d5 dv-container" id="jargon">
+        <div class="w3-row">
+            <div class="w3-col">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Jargon Buster</span></div>
+            </div>
+        </div>
+    </div>
+    
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASTPbhg4TwBgnFoGjEg8vDgPTobCAnENc&callback=initMap"></script>
     <script type="text/javascript">
         function initMap() {
             var myCenter = { lat: 52.003740, lng: -0.494263 };
             var map = new google.maps.Map(document.getElementById('googleMap'), {
                 zoom: 18,
-                center: myCenter
+                center: myCenter,
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
             });
             var marker = new google.maps.Marker({
                 position: myCenter,
@@ -314,7 +344,7 @@
 
         function sendForm(formType) {
             document.getElementById(formType + "_message").style.display = "block";
-            
+
             //goto(formType + "_message");
         }
 
@@ -344,7 +374,24 @@
                     jQuery("#saleprice, #purchaseprice").css("display", "none");
                 }
             });
-        })
+        });
+
+
+
+        function accordion(sender, id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+            var senderIcon = jQuery(sender).find("i");
+            if (senderIcon.hasClass("fa-plus")) {
+                senderIcon.removeClass("fa-plus").addClass("fa-minus");
+            } else {
+                senderIcon.removeClass("fa-minus").addClass("fa-plus");
+            }
+        }
     </script>
 
 
