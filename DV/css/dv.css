@@ -37,6 +37,18 @@
     background:rgba(255,255,255,0.7);
 }
 
+.dv-accordion-content {
+    max-height:0;
+    overflow:hidden;
+    -webkit-transition:max-height 0.8s;
+    -moz-transition:max-height 0.8s;
+    transition:max-height 0.8s;
+}
+
+.dv-accordion-show {
+    max-height:400px;
+}
+
 /**[id]:before { 
   display: block; 
   content: " "; 

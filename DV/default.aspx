@@ -287,27 +287,33 @@
     </div>
 
     <!--FAQs Row -->
+    <!--TODO: add animate-height to accordion cards-->
     <div class="w3-container w3-padding-32 w3-theme-l5 dv-container" id="faqs">
         <div class="w3-row">
             <div class="w3-col">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-dark w3-bottombar">Conveyancing FAQs</span></div>
+                <p>Find the answers to frequently asked questions below.</p>
             </div>
         </div>
         <div class="w3-row">
-            <div class="w3-col">
+            <div class="w3-col w3-half w3-padding">
                 <div class="w3-accordion">
                     <button onclick="accordion(this, 'q1')" class="w3-btn-block w3-left-align w3-theme w3-margin-top">
                         <span>My question lorem ipsum?<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
                     </button>
-                    <div id="q1" class="w3-accordion-content w3-container w3-animate-opacity">
+                    <div id="q1" class="dv-accordion-content w3-container w3-card w3-white">
                         <p>Here is there answer to the question.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
+                </div>
+            </div>
+            <div class="w3-col w3-half w3-padding">
+                <div class="w3-accordion">                    
                     <button onclick="accordion(this, 'q2')" class="w3-btn-block w3-left-align w3-theme w3-margin-top">
                         <span>Another frequently asked question<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
                     </button>
-                    <div id="q2" class="w3-accordion-content w3-container">
+                    <div id="q2" class="dv-accordion-content w3-container w3-card w3-white">
                         <p>Here is there answer to the question.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -322,6 +328,59 @@
         <div class="w3-row">
             <div class="w3-col">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Jargon Buster</span></div>
+                <p>Buying and Selling houses can be confusing. Use our handy Jargon Buster to help understand the terms you're likely to hear during the process.</p>
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-col w3-half w3-padding">
+                <div class="w3-accordion">
+                    <button onclick="accordion(this, 'j1')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
+                        <span>Completion Date<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
+                    </button>
+                    <div id="j1" class="dv-accordion-content w3-container w3-card w3-white">
+                        <p>Here is an explanation of the term.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>            
+            <div class="w3-col w3-half w3-padding">
+                <div class="w3-accordion">
+                    <button onclick="accordion(this, 'j2')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
+                        <span>Exchange of Contracts<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
+                    </button>
+                    <div id="j2" class="dv-accordion-content w3-container w3-card w3-white">
+                        <p>Here is an explanation of the term.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-col w3-half w3-padding">
+                <div class="w3-accordion">
+                    <button onclick="accordion(this, 'j3')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
+                        <span>Completion Date<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
+                    </button>
+                    <div id="j3" class="dv-accordion-content w3-container w3-card w3-white">
+                        <p>Here is an explanation of the term.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>            
+            <div class="w3-col w3-half w3-padding">
+                <div class="w3-accordion">
+                    <button onclick="accordion(this, 'j4')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
+                        <span>Exchange of Contracts<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
+                    </button>
+                    <div id="j4" class="dv-accordion-content w3-container w3-card w3-white">
+                        <p>Here is an explanation of the term.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -380,10 +439,15 @@
 
         function accordion(sender, id) {
             var x = document.getElementById(id);
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
+            //if (x.className.indexOf("w3-show") == -1) {
+            //    x.className += " w3-show";
+            //} else {
+            //    x.className = x.className.replace(" w3-show", "");
+            //}
+            if (x.className.indexOf("dv-accordion-show") == -1) {
+                x.className += " dv-accordion-show";
             } else {
-                x.className = x.className.replace(" w3-show", "");
+                x.className = x.className.replace(" dv-accordion-show", "");
             }
             var senderIcon = jQuery(sender).find("i");
             if (senderIcon.hasClass("fa-plus")) {
