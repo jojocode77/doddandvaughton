@@ -298,7 +298,7 @@
         <div class="w3-row">
             <div class="w3-col w3-half w3-padding">
                 <div class="w3-accordion">
-                    <button onclick="accordion(this, 'q1')" class="w3-btn-block w3-left-align w3-theme w3-margin-top">
+                    <button onclick="accordion(this, 'q1')" class="w3-btn-block w3-left-align w3-theme-dark w3-margin-top">
                         <span>My question lorem ipsum?<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
                     </button>
                     <div id="q1" class="dv-accordion-content w3-container w3-card w3-white">
@@ -310,7 +310,7 @@
             </div>
             <div class="w3-col w3-half w3-padding">
                 <div class="w3-accordion">                    
-                    <button onclick="accordion(this, 'q2')" class="w3-btn-block w3-left-align w3-theme w3-margin-top">
+                    <button onclick="accordion(this, 'q2')" class="w3-btn-block w3-left-align w3-theme-dark w3-margin-top">
                         <span>Another frequently asked question<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
                     </button>
                     <div id="q2" class="dv-accordion-content w3-container w3-card w3-white">
