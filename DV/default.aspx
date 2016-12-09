@@ -123,54 +123,71 @@
 
 
     <!-- Work Row -->
-    <div class="w3-row-padding w3-padding-32 w3-theme-d5 dv-container" id="work">
+    <div class="w3-theme-d5" id="work">
+        <div class="w3-row-padding w3-padding-32 dv-container">
 
-        <div class="w3-quarter">
-            <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Work</span></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+            <div class="w3-quarter">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Specialists in Conveyancing</span></div>
+                <p>Dodd & Vaughton are a firm of Licensed Conveyancers (specialist property lawyers) who deal solely in residential property transactions. Conveyancing is not just part of our business, it’s all of our business and we are 100% committed to providing total client satisfaction.</p>
+                <p>The knowledge and experience of our licensed conveyancers, who have over 100 years combined experience, ensures that any problems, however big or small, are dealt with quickly, efficiently and effectively.</p>            
+            </div>
 
-        <div class="w3-quarter">
-            <div class="w3-card-2 w3-white">
-                <%--<div style="max-height:226px;overflow:hidden;">--%>
-                <img src="img/salepurchase.jpg" alt="Sale and Purchase" style="width: 100%;" class="w3-border-bottom" />
-                <%--</div>--%>
-                <div class="w3-container w3-theme-l5">
-                    <h3>Sale & Purchase</h3>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
+            <div class="w3-quarter">
+                <div class="w3-card-2 w3-white">
+                    <%--<div style="max-height:226px;overflow:hidden;">--%>
+                    <img src="img/salepurchase.jpg" alt="Sale and Purchase" style="width: 100%;" class="w3-border-bottom" />
+                    <%--</div>--%>
+                    <div class="w3-container w3-theme-l5">
+                        <h3>Sale & Purchase</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-card-2 w3-white">
+                    <img src="img/remortgage.png" alt="Re-mortgage" style="width: 100%;" class="w3-border-bottom" />
+                    <div class="w3-container w3-theme-l5">
+                        <h3>Re-mortgage</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-card-2 w3-white">
+                    <img src="img/transferofequity.jpg" alt="Trasnfer of Equity" style="width: 100%;" class="w3-border-bottom" />
+                    <div class="w3-container w3-theme-l5">
+                        <h3>Transfer of Equity</h3>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="w3-quarter">
-            <div class="w3-card-2 w3-white">
-                <img src="img/remortgage.png" alt="Re-mortgage" style="width: 100%;" class="w3-border-bottom" />
-                <div class="w3-container w3-theme-l5">
-                    <h3>Re-mortgage</h3>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                </div>
+        <div class="w3-row-padding w3-padding-32 dv-container">
+            <div class="w3-third">
+                <ul class="w3-ul">
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Specialist residential lawyers dealing only in conveyancing</li>
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Qualified Conveyancer allocated to supervise your file throughout</li>
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>All correspondence dealt with on the day of receipt</li>
+                </ul>                
             </div>
-        </div>
-
-        <div class="w3-quarter">
-            <div class="w3-card-2 w3-white">
-                <img src="img/transferofequity.jpg" alt="Trasnfer of Equity" style="width: 100%;" class="w3-border-bottom" />
-                <div class="w3-container w3-theme-l5">
-                    <h3>Transfer of Equity</h3>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                </div>
+            <div class="w3-third">
+                <ul class="w3-ul">
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Legal Reports in plain English</li>
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Phone calls returned promptly</li>
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Specialist conveyancing software providing easy access to the Land Registry facility</li>
+                </ul>
+            </div>
+            <div class="w3-third">                
+                <ul class="w3-ul">
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Transaction check four days prior to completion to ensure all details and finance are in place to avoid delays</li>
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Practical approach to any difficulty which may arise in the transaction</li>
+                    <li><i class="fa fa-check-square-o w3-margin-right"></i>Clear and concise pricing structure</li>
+                </ul>
             </div>
         </div>
     </div>
+    
+    
 
     <!--Quote Row -->
     <div class="w3-container w3-padding-32 w3-theme-l5 dv-container" id="quote">
@@ -251,7 +268,6 @@
             <div class="w3-col m5">
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Contact Us</span></div>
                 <h3>Address</h3>
-                <%--<p>Swing by for a cup of coffee, or whatever.</p>--%>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-map-marker w3-xlarge"></i></span>5&amp;6 Station Square, Flitwick, Beds, MK45 1DP</p>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-phone w3-xlarge"></i></span>01525 719444</p>
                 <p><span style="width: 30px; display: inline-block;"><i class="fa fa-envelope-o w3-xlarge"></i></span><a href="mailto:enquiries@doddandvaughton.com">enquiries@doddandvaughton.com</a></p>
@@ -297,7 +313,7 @@
         </div>
         <div class="w3-row">
             <div class="w3-col w3-padding">
-                <div class="w3-accordion">
+                <div class="dv-accordion">
                     <div onclick="accordion(this, 'q1')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
                         <span class="dv-accordion-title">What is Conveyancing?</span>                        
                         <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
@@ -306,7 +322,7 @@
                         <p>Conveyancing is the process of legally transferring ownership of a property or land. For example, this would be required when you buy or sell a property or remortgage.</p>
                     </div>
                 </div>
-                <div class="w3-accordion">                    
+                <div class="dv-accordion">                    
                     <div onclick="accordion(this, 'q2')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
                         <span class="dv-accordion-title">I am a first time buyer looking to buy a house with my partner. I have been told that as I am a first time buyer there will be no stamp duty payable on any property I buy. Is this true?</span> 
                         <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
@@ -343,7 +359,7 @@
                         </div>                        
                     </div>
                 </div>
-                <div class="w3-accordion">
+                <div class="dv-accordion">
                     <div onclick="accordion(this, 'q3')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header" style="display:table">
                         <span class="dv-accordion-title">How long will the whole process of buying a property take?</span>       
                         <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>                 
@@ -353,14 +369,14 @@
                             <p>The Conveyancing process takes on average six to twelve weeks. This can vary however depending on the length of the ‘chain’ of connected transactions and the complexity of the transaction.</p>
                             <p>The Conveyancing process comprises of three stages, and there are tasks to be carried out at each:</p>
                             <ul class="w3-ul">
-                                <li>Pre-Contract</li>
-                                <li>Exchange of Contracts</li>
-                                <li>Completion</li>
+                                <li><i class="fa fa-arrow-right w3-margin-right"></i>Pre-Contract</li>
+                                <li><i class="fa fa-arrow-right w3-margin-right"></i>Exchange of Contracts</li>
+                                <li><i class="fa fa-arrow-right w3-margin-right"></i>Completion</li>
                             </ul>
                         </div>                            
                     </div>
                 </div>
-                <div class="w3-accordion">
+                <div class="dv-accordion">
                     <div onclick="accordion(this, 'q4')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
                         <span class="dv-accordion-title">What is a mortgage survey and what options of mortgage surveys are generally available?</span>                        
                         <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
@@ -377,7 +393,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w3-accordion">
+                <div class="dv-accordion">
                     <div onclick="accordion(this, 'q5')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
                         <span class="dv-accordion-title">I am looking to buy a property with my partner, but I have been told that I need to be careful when choosing between different types of ownership. What are the different ways in which my partner and I can own our home and what should we be wary of?</span>                        
                         <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
@@ -402,12 +418,12 @@
                             <p>A tenancy in common agreement is ideal for people who wish to own property jointly with their partner but wish to leave their share of the property to someone else when they die. It is also appropriate for people who have children from a previous marriage as they can guarantee that their children will benefit from their estate when they die, provided they have written a Will.</p>
                             <p>People worried about the cost of care home fees can also benefit from this type of ownership as by owning property as tenants in common, should you require full time care in the future, you will only be means tested on your share of the property, meaning you can potentially reduce the amount of care fees payable.</p>
                             <div class="w3-panel w3-pale-yellow w3-border w3-leftbar w3-border-yellow">
-                                <p>Please ensure that your specific situation is discussed in detail with your conveyancer before proceeding with your purchase.</p>
+                                <p><i class="fa fa-exclamation-triangle" style="font-size: 20px;margin-right:15px;"></i>Please ensure that your specific situation is discussed in detail with your conveyancer before proceeding with your purchase.</p>
                             </div>
                         </div>                        
                     </div>
                 </div>
-                <div class="w3-accordion">
+                <div class="dv-accordion">
                     <div onclick="accordion(this, 'q6')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
                         <span class="dv-accordion-title">I am about to put my house on the market and should I tell potential buyers about some problems I have had with my neighbours in the past?</span>                        
                         <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
@@ -425,64 +441,90 @@
 
     <!--Jargon Row -->
     <div class="w3-container w3-padding-32 w3-theme-d5 dv-container" id="jargon">
-        <div class="w3-row">
-            <div class="w3-col">
-                <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-light w3-bottombar">Jargon Buster</span></div>
-                <p>Buying and Selling houses can be confusing. Use our handy Jargon Buster to help understand the terms you're likely to hear during the process.</p>
-            </div>
-        </div>
-        <div class="w3-row">
-            <div class="w3-col w3-half w3-padding">
-                <div class="w3-accordion">
-                    <button onclick="accordion(this, 'j1')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
-                        <span>Completion Date<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
-                    </button>
-                    <div id="j1" class="dv-accordion-content w3-container w3-card w3-white">
-                        <p>Here is an explanation of the term.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+        <div class="w3-row dv-flex">
+            <div class="w3-col w3-half dv-flex">      
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3>Contract</h3>
+                    <p>A written and signed agreement made between the buyer and seller. It will give full details of the property and all of the other terms and conditions of the sale that have been agreed.</p>
                 </div>
-            </div>            
-            <div class="w3-col w3-half w3-padding">
-                <div class="w3-accordion">
-                    <button onclick="accordion(this, 'j2')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
-                        <span>Exchange of Contracts<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
-                    </button>
-                    <div id="j2" class="dv-accordion-content w3-container w3-card w3-white">
-                        <p>Here is an explanation of the term.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+            </div>
+            <div class="w3-col w3-half dv-flex">   
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3 class="w3-margin-left">Disbursement</h3>
+                    <p>Fees that must be paid to third parties such as Local Authorities (for searches) and Land Registry.</p>     
                 </div>
             </div>
         </div>
-        <div class="w3-row">
-            <div class="w3-col w3-half w3-padding">
-                <div class="w3-accordion">
-                    <button onclick="accordion(this, 'j3')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
-                        <span>Completion Date<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
-                    </button>
-                    <div id="j3" class="dv-accordion-content w3-container w3-card w3-white">
-                        <p>Here is an explanation of the term.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+        <div class="w3-row dv-flex">
+            <div class="w3-col w3-half dv-flex">   
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3 class="w3-margin-left">Energy Performance Certificate (EPC)</h3>
+                    <p>A certificate that rates your home from A to G on how efficiently it uses energy. These must come from an accredited Energy Assessor who visits the property to collect the relevant data and provide the certificate. This data includes the date, construction and location of the house, and relevant fittings such as heating systems, insulation or double-glazing.</p>
                 </div>
-            </div>            
-            <div class="w3-col w3-half w3-padding">
-                <div class="w3-accordion">
-                    <button onclick="accordion(this, 'j4')" class="w3-btn-block w3-left-align w3-theme-l4 w3-margin-top">
-                        <span>Exchange of Contracts<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
-                    </button>
-                    <div id="j4" class="dv-accordion-content w3-container w3-card w3-white">
-                        <p>Here is an explanation of the term.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+            </div>
+            <div class="w3-col w3-half dv-flex">   
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3 class="w3-margin-left">Exchange of Contracts</h3>
+                    <p>The point at which contracts become legally binding and a completion date is formally agreed.</p>
                 </div>
             </div>
         </div>
+        
+        <div class="w3-row dv-flex">
+            <div class="w3-col w3-half dv-flex">      
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3>Freehold</h3>
+                   <p>A type of land ownership which, in effect, runs forever.</p>
+                </div>
+            </div>
+            <div class="w3-col w3-half dv-flex">   
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3 class="w3-margin-left">Leasehold Property</h3>
+                    <p>A type of land ownership for a fixed term of years.</p>     
+                </div>
+            </div>
+        </div>
+        <div class="w3-row dv-flex">
+            <div class="w3-col w3-half dv-flex">   
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3 class="w3-margin-left">Mortgage Offer</h3>
+                    <p>The formal document making an offer of a loan under a mortgage which will say how much the loan is for, the period and the amount of repayment and all of the terms and conditions attached to the loan.</p>
+                </div>
+            </div>
+            <div class="w3-col w3-half dv-flex">   
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3 class="w3-margin-left">Searches</h3>
+                    <p>The buyer’s Conveyancer will carry out searches as part of the Conveyancing process. They are done to check that there are no problems with the property. The usual searches that will carried out are a Local Authority search, Drainage and Water search and the Environmental/Contaminated land search. There are other more specific searches that may also be carried out depending on the requirement of a mortgage lender and which part of the country the property is in.</p>
+                    <p>Examples of these are: </p>                    
+                    <ul class="w3-ul">
+                        <li><i class="fa fa-arrow-right w3-margin-right"></i>Chancel Repair Liability search</li>
+                        <li><i class="fa fa-arrow-right w3-margin-right"></i>Coal Mining search</li>
+                        <li><i class="fa fa-arrow-right w3-margin-right"></i>Cheshire Brine search</li>
+                        <li><i class="fa fa-arrow-right w3-margin-right"></i>Tin Mining search</li>
+                    </ul>                    
+                </div>
+            </div>
+        </div>  
+         <div class="w3-row dv-flex">
+            <div class="w3-col w3-half dv-flex">   
+                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+                    <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
+                    <h3 class="w3-margin-left">Stamp Duty Land Tax</h3>
+                    <p>A tax payable to the Government on the completion of the purchase of a property or land. The amount of duty depends on its purchase price, although there are some areas in England and Wales where no Stamp Duty Land Tax is payable at all.</p>
+                </div>
+            </div>
+            <div class="w3-col w3-half dv-flex">   
+                
+            </div>
+        </div>  
     </div>
     
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASTPbhg4TwBgnFoGjEg8vDgPTobCAnENc&callback=initMap"></script>
@@ -535,7 +577,17 @@
             });
         });
 
+        function concertina(sender, id) {
+            var x = jQuery("#" + id);
+            x.animate({ width: "toggle" });
 
+            var senderIcon = jQuery(sender).find("i");
+            if (senderIcon.hasClass("fa-arrow-right")) {
+                senderIcon.removeClass("fa-arrow-right").addClass("fa-arrow-left");
+            } else {
+                senderIcon.removeClass("fa-arrow-left").addClass("fa-arrow-right");
+            }
+        }
 
         function accordion(sender, id) {
             var x = jQuery("#" + id);

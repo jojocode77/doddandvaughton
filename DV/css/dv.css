@@ -37,11 +37,14 @@
     background:rgba(255,255,255,0.7);
 }
 
-
+.dv-accordion {
+    width:100%;
+}
 
 .dv-accordion-header {
     display:table;
     width:100%;
+    cursor:pointer;
 }
 
 .dv-accordion-content {
@@ -60,6 +63,8 @@
 .dv-accordion-icon {
     display:table-cell;
     padding-left:10px;
+    text-align:right;
+    vertical-align:top;
 }
 
 .dv-accordion-show {
@@ -74,6 +79,18 @@
   visibility: hidden; 
 }*/
 
+.dv-flex {
+    display:flex;
+}
+
+.dv-jargon {
+    width:100%;
+}
+
+.dv-jargon i {
+    margin-top:8px;
+}
+
 .dv-body-container {
     padding-top:148.5px;
 }
@@ -87,6 +104,7 @@
     -khtml-opacity: 0.7;        /* Safari 1.x */
     opacity: 0.7;               /* Good browsers */
 }
+
 
 .dv-header > h1, .dv-header > h4 {
     margin-top:3px;
