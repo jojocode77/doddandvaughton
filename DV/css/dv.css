@@ -37,12 +37,29 @@
     background:rgba(255,255,255,0.7);
 }
 
+
+
+.dv-accordion-header {
+    display:table;
+    width:100%;
+}
+
 .dv-accordion-content {
-    max-height:0;
+    /*max-height:0;
     overflow:hidden;
-    -webkit-transition:max-height 0.8s;
-    -moz-transition:max-height 0.8s;
-    transition:max-height 0.8s;
+    -webkit-transition:max-height 0.5s;
+    -moz-transition:max-height 0.5s;
+    transition:max-height 0.5s;*/
+    display:none;
+}
+
+.dv-accordion-title {
+    display:table-cell;
+}
+
+.dv-accordion-icon {
+    display:table-cell;
+    padding-left:10px;
 }
 
 .dv-accordion-show {

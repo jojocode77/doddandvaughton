@@ -287,7 +287,6 @@
     </div>
 
     <!--FAQs Row -->
-    <!--TODO: add animate-height to accordion cards-->
     <div class="w3-container w3-padding-32 w3-theme-l5 dv-container" id="faqs">
         <div class="w3-row">
             <div class="w3-col">
@@ -299,30 +298,132 @@
         <div class="w3-row">
             <div class="w3-col w3-padding">
                 <div class="w3-accordion">
-                    <button onclick="accordion(this, 'q1')" class="w3-btn-block w3-left-align w3-theme-dark w3-margin-top">
-                        <span>My question lorem ipsum?<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span>                        
-                    </button>
+                    <div onclick="accordion(this, 'q1')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
+                        <span class="dv-accordion-title">What is Conveyancing?</span>                        
+                        <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
+                    </div>
                     <div id="q1" class="dv-accordion-content w3-container w3-card w3-white">
-                        <p>Here is there answer to the question.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Conveyancing is the process of legally transferring ownership of a property or land. For example, this would be required when you buy or sell a property or remortgage.</p>
                     </div>
                 </div>
                 <div class="w3-accordion">                    
-                    <button onclick="accordion(this, 'q2')" class="w3-btn-block w3-left-align w3-theme-dark w3-margin-top">
-                        <span>Another frequently asked question<span style="vertical-align:middle;float:right"><i class="fa fa-plus" style="font-size: 20px;"></i></span></span> 
-                    </button>
+                    <div onclick="accordion(this, 'q2')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
+                        <span class="dv-accordion-title">I am a first time buyer looking to buy a house with my partner. I have been told that as I am a first time buyer there will be no stamp duty payable on any property I buy. Is this true?</span> 
+                        <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
+                    </div>
                     <div id="q2" class="dv-accordion-content w3-container w3-card w3-white">
-                        <p>Here is there answer to the question.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="w3-padding">
+                            <p>The stamp duty land tax relief for first time buyers ended on 24th March 2012. Therefore stamp duty will be payable in every purchase of a property for more than £125,000. The current stamp duty thresholds are:</p>
+                            <table class="w3-table-all">
+                                <tr>
+                                    <th>Property or lease premium or transfer value</th>
+                                    <th>SDLT rate</th>
+                                </tr>
+                                <tr>
+                                    <td>Up to £125,000</td>
+                                    <td>Zero</td>
+                                </tr>
+                                <tr>
+                                    <td>The next £125,000 (the portion from £125,001 to £250,000)</td>
+                                    <td>2%</td>
+                                </tr>
+                                <tr>
+                                    <td>The next £675,000 (the portion from £250,001 to £925,000)</td>
+                                    <td>5%</td>
+                                </tr>
+                                <tr>
+                                    <td>The next £575,000 (the portion from £925,001 to £1.5 million)</td>
+                                    <td>10%</td>
+                                </tr>
+                                <tr>
+                                    <td>The remaining amount (the portion above £1.5 million)</td>
+                                    <td>12%</td>
+                                </tr>
+                            </table>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="w3-accordion">
+                    <div onclick="accordion(this, 'q3')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header" style="display:table">
+                        <span class="dv-accordion-title">How long will the whole process of buying a property take?</span>       
+                        <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>                 
+                    </div>
+                    <div id="q3" class="dv-accordion-content w3-container w3-card w3-white">
+                        <div class="w3-padding">
+                            <p>The Conveyancing process takes on average six to twelve weeks. This can vary however depending on the length of the ‘chain’ of connected transactions and the complexity of the transaction.</p>
+                            <p>The Conveyancing process comprises of three stages, and there are tasks to be carried out at each:</p>
+                            <ul class="w3-ul">
+                                <li>Pre-Contract</li>
+                                <li>Exchange of Contracts</li>
+                                <li>Completion</li>
+                            </ul>
+                        </div>                            
+                    </div>
+                </div>
+                <div class="w3-accordion">
+                    <div onclick="accordion(this, 'q4')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
+                        <span class="dv-accordion-title">What is a mortgage survey and what options of mortgage surveys are generally available?</span>                        
+                        <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
+                    </div>
+                    <div id="q4" class="dv-accordion-content w3-container w3-card w3-white">
+                        <div class="w3-padding">
+                            <p>The main reason for a survey is so you and the lender can find out whether the property is actually worth the amount you have agreed to pay for it. There are 3 main types of surveys available and they vary greatly in price:</p>
+                            <ol class="w3-ul">
+                                <li>The simplest and cheapest option is to rely on the valuation from the lender. The lender will send out one of their own valuers to put a value on the property so they can ensure the property is good security for the loan. Lenders will provide a copy of this report but there is not much information to assist you. The report will not tell you whether you have offered too much.</li>
+                                <li>The middle option is to have a home buyers report. The lender’s valuer will normally carry out this report at the same time. This survey is not as comprehensive as a full structural survey but will highlight parts of the property that need further investigation. Invariably, the surveyor will not inspect unexposed or inaccessible areas of the property, for instance, the roof or below the floorboards.</li>
+                                <li>The most expensive option is the full structural survey. This will be carried out by a qualified structural surveyor and will provide a detailed report on the structural condition of the building. This type of report is advisable if the property is of a high value; the property is more than 100 years old; the property has been completely renovated or you intend to do so and if the property is not a conventional brick or mortar construction</li>
+                            </ol>
+                            <p>When choosing between the different types of survey, you need to remember that once you have bought the property you will be responsible for any repairs or major work that needs to be done. If you go for a more detailed report from the outset this will hopefully enable you to make a more informed decision on whether the property is worth the asking price and will put you in a stronger negotiating position in relation to price. If you need help making a choice then speak to your Conveyancer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-accordion">
+                    <div onclick="accordion(this, 'q5')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
+                        <span class="dv-accordion-title">I am looking to buy a property with my partner, but I have been told that I need to be careful when choosing between different types of ownership. What are the different ways in which my partner and I can own our home and what should we be wary of?</span>                        
+                        <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
+                    </div>
+                    <div id="q5" class="dv-accordion-content w3-container w3-card w3-white">
+                        <div class="w3-padding">
+                            <p>There are two ways in which the property can be held, either as ‘joint tenants’ or ‘tenants in common’. It is extremely important to consider the different options available to co-own a property.</p>
+                            <h3>Joint Tenants</h3>
+                            <p>When you co-own a property as joint tenants, each co-owner owns the whole of the property and neither owner has a specific or identifiable share.</p>
+                            <p>If you sell the property, you are each entitled to half the sale proceeds regardless of how much you each contributed to the purchase price or to the mortgage repayments. Neither co-owner has a separate share in the property that can be sold.</p>
+                            <p>When you die, the surviving co-owners will automatically own the whole of the property, regardless of any wishes you may have made in your Will regarding the property. This is called the Right of Survivorship.</p>
+                            <p>If a property is held under a joint tenancy, you can't leave it to someone else in your Will. It will automatically transfer to the other Joint Tenant.</p>
+                            <p>This type of ownership is ideal for couples who wish to leave property to each other when they die.</p>
+                            <p>However, if you enter a joint tenancy agreement and have children from a previous marriage or relationship, it could mean that when you die, your children will not inherit a share of that property.</p>
+                            <p>For initial advice and guidance on writing a Will or how buying a property can affect your estate, please see Making a Will.</p>
+                            <h4>Severing a Joint Tenancy</h4>
+                            <p>If you currently own property jointly as joint tenants, it is possible to change it into tenants in common. This is called a Notice of Severance.</p>
+                            <p>You might wish to do this for a number of reasons, such as a change in your relationship with the co-owner or to put your half of the property into a trust. As the majority of properties are registered at the Land Registry, this will involve an application being made to add a note to the register of the title to the property.</p>
+                            <h3>Tenants in Common</h3>
+                            <p>If you co-own a property as tenants in common, each co-owner owns a specific share of the property. This is typically a 50% share each, however it is possible to hold unequal shares.</p>
+                            <p>As you each own a separate share in the property you are all entitled to leave your individual share to your chosen beneficiaries in your Will. If you do not have a Will when you die, your share will pass to your nearest living blood relatives according to the Rules of Intestacy (law).</p>
+                            <p>A tenancy in common agreement is ideal for people who wish to own property jointly with their partner but wish to leave their share of the property to someone else when they die. It is also appropriate for people who have children from a previous marriage as they can guarantee that their children will benefit from their estate when they die, provided they have written a Will.</p>
+                            <p>People worried about the cost of care home fees can also benefit from this type of ownership as by owning property as tenants in common, should you require full time care in the future, you will only be means tested on your share of the property, meaning you can potentially reduce the amount of care fees payable.</p>
+                            <div class="w3-panel w3-pale-yellow w3-border w3-leftbar w3-border-yellow">
+                                <p>Please ensure that your specific situation is discussed in detail with your conveyancer before proceeding with your purchase.</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="w3-accordion">
+                    <div onclick="accordion(this, 'q6')" class="w3-padding w3-left-align w3-theme-d3 w3-margin-top dv-accordion-header">
+                        <span class="dv-accordion-title">I am about to put my house on the market and should I tell potential buyers about some problems I have had with my neighbours in the past?</span>                        
+                        <span class="dv-accordion-icon"><i class="fa fa-plus" style="font-size: 20px;"></i></span>
+                    </div>
+                    <div id="q6" class="dv-accordion-content w3-container w3-card w3-white">
+                        <p>Problems with neighbours are always an unpleasant occurrence and may well affect the sale of your property. If you have a serious dispute and do not disclose this to a buyer then you may find yourself being sued in the future.</p>
+                        <p>A seller will be required to complete a Sellers Property Information form, which will ask for information about the property. This is where any reported neighbour disputes should be disclosed. Problems with neighbours can include disputes over land, shared driveways, hedge height and boundary lines. Problems such as loud music or a barking dog need not always be mentioned as they are very subjective. For example, you may be more sensitive to the music than someone else. A good deciding factor as to whether the problem is one you should disclose is whether you have made an official complaint to the local council or police force. If you have lodged an official complaint then if this is not disclosed and the new owners decide to sue you it may be hard to defend a claim as the complaint shows you were aware there was an issue before you sold.</p>
+                        <p>Before deciding whether to disclose any problem to a potential buyer speak to your Conveyancer for guidance as disclosing a problem will likely affect the value of the property.</p>
+                        <p>Before making a formal complaint about a neighbour it is worth considering the effect this could have if you intend to sell in the near future!</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--FAQs Row -->
+    <!--Jargon Row -->
     <div class="w3-container w3-padding-32 w3-theme-d5 dv-container" id="jargon">
         <div class="w3-row">
             <div class="w3-col">
@@ -437,17 +538,15 @@
 
 
         function accordion(sender, id) {
-            var x = document.getElementById(id);
-            //if (x.className.indexOf("w3-show") == -1) {
-            //    x.className += " w3-show";
+            var x = jQuery("#" + id);
+            x.slideToggle();
+            //var x = document.getElementById(id);
+            
+            //if (x.className.indexOf("dv-accordion-show") == -1) {
+            //    x.className += " dv-accordion-show";
             //} else {
-            //    x.className = x.className.replace(" w3-show", "");
+            //    x.className = x.className.replace(" dv-accordion-show", "");
             //}
-            if (x.className.indexOf("dv-accordion-show") == -1) {
-                x.className += " dv-accordion-show";
-            } else {
-                x.className = x.className.replace(" dv-accordion-show", "");
-            }
             var senderIcon = jQuery(sender).find("i");
             if (senderIcon.hasClass("fa-plus")) {
                 senderIcon.removeClass("fa-plus").addClass("fa-minus");
