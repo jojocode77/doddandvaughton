@@ -441,32 +441,32 @@
 
     <!--Jargon Row -->
     <div class="w3-container w3-padding-32 w3-theme-d5 dv-container" id="jargon">
-        <div class="w3-row dv-flex">
-            <div class="w3-col w3-half dv-flex">      
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+        <div class="w3-row ">
+            <div class="w3-col w3-half w3-padding">      
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3>Contract</h3>
                     <p>A written and signed agreement made between the buyer and seller. It will give full details of the property and all of the other terms and conditions of the sale that have been agreed.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half dv-flex">   
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+            <div class="w3-col w3-half w3-padding">   
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Disbursement</h3>
                     <p>Fees that must be paid to third parties such as Local Authorities (for searches) and Land Registry.</p>     
                 </div>
             </div>
         </div>
-        <div class="w3-row dv-flex">
-            <div class="w3-col w3-half dv-flex">   
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+        <div class="w3-row">
+            <div class="w3-col w3-half w3-padding">   
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Energy Performance Certificate (EPC)</h3>
                     <p>A certificate that rates your home from A to G on how efficiently it uses energy. These must come from an accredited Energy Assessor who visits the property to collect the relevant data and provide the certificate. This data includes the date, construction and location of the house, and relevant fittings such as heating systems, insulation or double-glazing.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half dv-flex">   
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+            <div class="w3-col w3-half w3-padding">   
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Exchange of Contracts</h3>
                     <p>The point at which contracts become legally binding and a completion date is formally agreed.</p>
@@ -474,32 +474,32 @@
             </div>
         </div>
         
-        <div class="w3-row dv-flex">
-            <div class="w3-col w3-half dv-flex">      
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+        <div class="w3-row">
+            <div class="w3-col w3-half w3-padding">      
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3>Freehold</h3>
                    <p>A type of land ownership which, in effect, runs forever.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half dv-flex">   
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+            <div class="w3-col w3-half w3-padding">   
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Leasehold Property</h3>
                     <p>A type of land ownership for a fixed term of years.</p>     
                 </div>
             </div>
         </div>
-        <div class="w3-row dv-flex">
-            <div class="w3-col w3-half dv-flex">   
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+        <div class="w3-row">
+            <div class="w3-col w3-half w3-padding">   
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Mortgage Offer</h3>
                     <p>The formal document making an offer of a loan under a mortgage which will say how much the loan is for, the period and the amount of repayment and all of the terms and conditions attached to the loan.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half dv-flex">   
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+            <div class="w3-col w3-half w3-padding">   
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Searches</h3>
                     <p>The buyer’s Conveyancer will carry out searches as part of the Conveyancing process. They are done to check that there are no problems with the property. The usual searches that will carried out are a Local Authority search, Drainage and Water search and the Environmental/Contaminated land search. There are other more specific searches that may also be carried out depending on the requirement of a mortgage lender and which part of the country the property is in.</p>
@@ -513,15 +513,15 @@
                 </div>
             </div>
         </div>  
-         <div class="w3-row dv-flex">
-            <div class="w3-col w3-half dv-flex">   
-                <div class="dv-jargon w3-container w3-margin w3-round-xxlarge w3-white">
+         <div class="w3-row">
+            <div class="w3-col w3-half w3-padding">   
+                <div class="dv-jargon w3-container w3-round-xxlarge w3-white">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Stamp Duty Land Tax</h3>
                     <p>A tax payable to the Government on the completion of the purchase of a property or land. The amount of duty depends on its purchase price, although there are some areas in England and Wales where no Stamp Duty Land Tax is payable at all.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half dv-flex">   
+            <div class="w3-col w3-half w3-padding">   
                 
             </div>
         </div>  
