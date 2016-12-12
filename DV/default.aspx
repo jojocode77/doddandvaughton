@@ -445,15 +445,15 @@
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-theme-dark w3-bottombar">Jargon Buster</span></div>
             </div>
         </div>
-        <div class="w3-row ">
-            <div class="w3-col w3-half w3-padding">      
+        <div class="w3-row dv-flex-container">
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">      
                 <div class="dv-jargon w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3>Contract</h3>
                     <p>A written and signed agreement made between the buyer and seller. It will give full details of the property and all of the other terms and conditions of the sale that have been agreed.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half w3-padding">   
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">   
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Disbursement</h3>
@@ -461,15 +461,15 @@
                 </div>
             </div>
         </div>
-        <div class="w3-row">
-            <div class="w3-col w3-half w3-padding">   
+        <div class="w3-row dv-flex-container">
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">   
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Energy Performance Certificate (EPC)</h3>
                     <p>A certificate that rates your home from A to G on how efficiently it uses energy. These must come from an accredited Energy Assessor who visits the property to collect the relevant data and provide the certificate. This data includes the date, construction and location of the house, and relevant fittings such as heating systems, insulation or double-glazing.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half w3-padding">   
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">   
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Exchange of Contracts</h3>
@@ -478,15 +478,15 @@
             </div>
         </div>
         
-        <div class="w3-row">
-            <div class="w3-col w3-half w3-padding">      
+        <div class="w3-row dv-flex-container">
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">      
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3>Freehold</h3>
                    <p>A type of land ownership which, in effect, runs forever.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half w3-padding">   
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">   
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Leasehold Property</h3>
@@ -494,15 +494,15 @@
                 </div>
             </div>
         </div>
-        <div class="w3-row">
-            <div class="w3-col w3-half w3-padding">   
+        <div class="w3-row dv-flex-container">
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">   
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Mortgage Offer</h3>
                     <p>The formal document making an offer of a loan under a mortgage which will say how much the loan is for, the period and the amount of repayment and all of the terms and conditions attached to the loan.</p>
                 </div>
             </div>
-            <div class="w3-col w3-half w3-padding">   
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">   
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Searches</h3>
@@ -517,8 +517,8 @@
                 </div>
             </div>
         </div>  
-         <div class="w3-row">
-            <div class="w3-col w3-half w3-padding">   
+         <div class="w3-row dv-flex-container">
+            <div class="w3-col w3-half w3-padding dv-flex-container dv-flex-child">   
                 <div class="dv-jargon w3-container w3-round-xxlarge w3-theme-d5">
                     <span class="w3-margin-right" style="float:left;"><i class="fa fa-question w3-jumbo"></i></span>
                     <h3 class="w3-margin-left">Stamp Duty Land Tax</h3>
@@ -529,6 +529,30 @@
                 
             </div>
         </div>  
+    </div>
+
+    <!--Testimonials-->
+    <div class="w3-container w3-padding-32 w3-theme-d5 dv-container" id="testimonials">
+        <div class="w3-row dv-flex-container">
+            <div class="w3-col w3-half w3-container dv-flex-container dv-flex-child">
+                <div class="w3-panel w3-card-4 w3-theme-l5 dv-flex-child" style="margin-top:24px !important">
+                    <span class="dv-quote">&#10077;</span>
+                    <p class="w3-large" style="margin-top:-40px">
+                        <i>Whenever I phoned with a query, Dodd & Vaughton were straight on the case and always got back to me with the answer promptly. It means a lot when people call back when they say they will. I will not hesitate to recommend you.</i>
+                    </p>
+                    <p>Wendy Daniel, Flitwick</p>
+                </div>
+            </div>
+            <div class="w3-col w3-half w3-container dv-flex-container dv-flex-child">
+                <div class="w3-panel w3-card-4 w3-theme-l5 dv-flex-child" style="margin-top:24px !important">
+                    <span class="dv-quote">&#10077;</span>
+                    <p class="w3-large" style="margin-top:-40px">
+                        <i>...exceptionally happy with the service, very professional, everything was made clear and nothing was too much trouble. Superb service and highly recommended.</i>
+                    </p>
+                    <p style="">Samantha Norsworthy, Bedford</p>
+                </div>
+            </div>
+        </div>
     </div>
     
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASTPbhg4TwBgnFoGjEg8vDgPTobCAnENc&callback=initMap"></script>

@@ -38,12 +38,13 @@
                 <a class="w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
             </li>
             <li><a href="#" class="w3-theme"><i class="fa fa-home w3-margin-right"></i>Home</a></li>  
-            <li class="w3-hide-small"><a href="javascript:goto('work')" class="w3-hover-white">Work</a></li>
+            <li class="w3-hide-small"><a href="javascript:goto('work')" class="w3-hover-white">About Us</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('team')" class="w3-hover-white">Team</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('quote')" class="w3-hover-white">Quote</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('contact')" class="w3-hover-white">Contact</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('faqs')" class="w3-hover-white">FAQs</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('jargon')" class="w3-hover-white">Jargon Buster</a></li>
+            <li class="w3-hide-small"><a href="javascript:goto('testimonials')" class="w3-hover-white">Testimonials</a></li>
             <%--<li class="w3-hide-small w3-dropdown-hover">
                 <a href="javascript:void(0);" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></a>
                 <div class="w3-dropdown-content w3-white w3-card-4">
@@ -57,12 +58,13 @@
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
             <ul class="w3-navbar w3-left-align w3-theme-d2">
-                <li><a href="javascript:goto('work')" onclick="openNav()">Work</a></li>
+                <li><a href="javascript:goto('work')" onclick="openNav()">About Us</a></li>
                 <li><a href="javascript:goto('team')" onclick="openNav()">Team</a></li>
                 <li><a href="javascript:goto('quote')" onclick="openNav()">Quote</a></li>
                 <li><a href="javascript:goto('contact')" onclick="openNav()">Contact</a></li>
                 <li><a href="javascript:goto('faqs')" onclick="openNav()">FAQs</a></li>
                 <li><a href="javascript:goto('jargon')" onclick="openNav()">Jargon Buster</a></li>
+                <li><a href="javascript:goto('testimonials')" onclick="openNav()">Testimonials</a></li>
                 <%--<li><a href="#">Search</a></li>--%>
                 <%--<li class="w3-dropdown-hover">
                     <a href="javascript:void(0);" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></a>

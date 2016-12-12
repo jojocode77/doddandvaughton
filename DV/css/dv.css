@@ -85,13 +85,30 @@ ul.w3-ul li:last-child {border-bottom:1px solid #ddd}
   visibility: hidden; 
 }*/
 
-.dv-flex {
-    /*display:flex;*/
+.dv-bubble {
+    background-image:url('../img/bubble.png');
+}
+
+.dv-flex-container {
+    display:flex;
+}
+
+.dv-flex-child {
+    align-items:stretch;
+    flex:1;
 }
 
 .dv-jargon {
     width:100%;
-    padding:8px 16px;
+    padding:8px 16px 16px 16px;
+    align-items:stretch;
+    flex:1;
+}
+
+@media (max-width:600px){
+    .dv-flex-container {
+        display:block;
+    }
 }
 
 
@@ -139,4 +156,10 @@ ul.w3-ul li:last-child {border-bottom:1px solid #ddd}
 
 .dv-cursorpointer {
     cursor:pointer;
+}
+
+.dv-quote {
+    font-size:150px;
+    line-height:0.5em;
+    color:#0096e0;
 }
