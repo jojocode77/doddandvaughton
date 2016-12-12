@@ -33,6 +33,12 @@
     color:#000 !important;
 }
 
+ul.w3-ul li:last-child {border-bottom:1px solid #ddd}
+
+#work ul.w3-ul li {
+    min-height:60px;
+}
+
 .dv-white-transparent {
     background:rgba(255,255,255,0.7);
 }
@@ -85,10 +91,21 @@
 
 .dv-jargon {
     width:100%;
+    padding:8px 16px;
+}
+
+
+
+.dv-jargon * {
+    margin-left:51px;
 }
 
 .dv-jargon i {
-    margin-top:8px;
+    margin-left:0;
+}
+
+.dv-jargon span {
+    margin-left:0;
 }
 
 .dv-body-container {

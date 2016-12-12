@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="dv.master.cs" Inherits="DV.dv" %>
 
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
 <head runat="server">
     <title>DODD & VAUGHTON</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
         <div class="dv-header w3-padding-top w3-padding-bottom w3-center w3-theme-d2 w3-border-bottom w3-display-container" style="text-transform:uppercase">
             <h1>Dodd & Vaughton</h1><h4>The Complete Conveyancing Service</h4>
             <div class="w3-display-bottomright w3-hide-small">
-                <img src="img/house-trans.png" style="max-height:100px" />
+                <img src="img/house-trans.png" style="max-height:100px" alt="Dodd & Vaughton icon" />
             </div>
         </div>
         <ul class="w3-navbar w3-theme-d2 w3-left-align">
@@ -38,8 +38,8 @@
                 <a class="w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
             </li>
             <li><a href="#" class="w3-theme"><i class="fa fa-home w3-margin-right"></i>Home</a></li>  
-            <li class="w3-hide-small"><a href="javascript:goto('team')" class="w3-hover-white">Team</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('work')" class="w3-hover-white">Work</a></li>
+            <li class="w3-hide-small"><a href="javascript:goto('team')" class="w3-hover-white">Team</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('quote')" class="w3-hover-white">Quote</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('contact')" class="w3-hover-white">Contact</a></li>
             <li class="w3-hide-small"><a href="javascript:goto('faqs')" class="w3-hover-white">FAQs</a></li>
@@ -57,8 +57,8 @@
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
             <ul class="w3-navbar w3-left-align w3-theme-d2">
-                <li><a href="javascript:goto('team')" onclick="openNav()">Team</a></li>
                 <li><a href="javascript:goto('work')" onclick="openNav()">Work</a></li>
+                <li><a href="javascript:goto('team')" onclick="openNav()">Team</a></li>
                 <li><a href="javascript:goto('quote')" onclick="openNav()">Quote</a></li>
                 <li><a href="javascript:goto('contact')" onclick="openNav()">Contact</a></li>
                 <li><a href="javascript:goto('faqs')" onclick="openNav()">FAQs</a></li>
@@ -81,12 +81,13 @@
     </div>   
     <div>
         <!-- Footer -->
-    <footer class="w3-container w3-padding-16 w3-theme-d2">
+    <footer class="w3-container w3-theme-d2">
       <p>Regulated by the <a href="http://www.conveyancer.org.uk/" target="_blank">Council for Licensed Conveyancers</a></p>
-      <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+      <div style="position:relative;bottom:45px;" class="w3-tooltip w3-right">
         <a class="w3-text-white" href="javascript:goto('team')"><span class="w3-xlarge"><i class="fa fa-chevron-circle-up"></i></span></a>
       </div>
-      <p>
+      <p class="w3-small">
+        Dodd & Vaughton - The Complete Conveyancing Service<br />
 	    Mid Beds Conveyancing Services Limited (Registration No. 5200108) trading as "Dodd & Vaughton"<br/>
 	    5 & 6 Station Square<br/>
 	    Flitwick<br/>
